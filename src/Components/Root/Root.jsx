@@ -5,9 +5,9 @@ import { Outlet } from "react-router-dom"
 const Root = () => {
   return (
     <>
-    <Navbar></Navbar>
-    <Outlet></Outlet>
-    <Footer></Footer>
+      <Navbar></Navbar>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </>
   )
 }
